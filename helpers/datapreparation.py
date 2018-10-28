@@ -94,6 +94,8 @@ class DataPreparation:
 
         return one_hot_results
 
+    
+
 d = DataPreparation()
 books = d.load_data("english")
 vec_data = d.vectorize_data(books)
